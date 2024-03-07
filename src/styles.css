@@ -1,0 +1,169 @@
+* {
+    font-family: Ubuntu;
+    margin: 0px;
+    padding: 0px;
+}
+/* colors */
+/* primary #B4B4B4*/
+/* secondary #C8FCEA*/
+/* accent #005A34 */
+/* primary */
+/* end colors */
+
+/* fonts */
+.font-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .font-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .font-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .font-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .font-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .font-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .font-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+/* end fonts */
+
+/* helpers */
+.seebg-1 {
+    background-color: yellow;
+}
+
+.seebg-2 {
+    background-color: red;
+}
+
+.seebg-3 {
+    background-color: blue;
+}
+
+.see-ol {
+    outline: 2px solid;
+}
+
+/* end helpers */
+
+.section-row {
+    min-height: 80vh;
+}
+
+.section-row-sm {
+    min-height: 40vh;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.bg-instruments {
+    background-color: rgb(255, 230, 0) ;
+    background-image: url('assets/img/instruments.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.bg-blend {
+    background-blend-mode: multiply;
+}
+
+
+@media (max-width: 1000px)  {
+    .bg-instruments {
+        background-position: bottom left;
+    }
+}
+
+
+img {
+    width: 100%;
+}
+
+.logo-image {
+    max-width: 10vw;
+    max-height: 10vh;
+    background-color: #9a9c9e;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+.bg-sec {
+    background-color: #C8FCEA;
+}
+
+.bg-third {
+    background-color: #B4B4B4;
+}
+
+.image-frame {
+    border: 2px solid #005A34;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    min-height: 30vh;
+    object-fit: cover;
+}
+
+.card-text {
+    min-height: 40vh;
+    background-color: white;
+    border: 2px solid #005A34;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.card-header {
+    min-height: 15vh;
+}
+
+.icon-image {
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
