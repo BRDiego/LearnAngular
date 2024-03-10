@@ -1,0 +1,10 @@
+.card-header {
+    min-height: 15vh;
+}
+
+.icon-image {
+    border: 2px solid transparent;
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+}
